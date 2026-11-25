@@ -1,0 +1,270 @@
+# Translation of wm-salon-sovereign-hub in pl_PL
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-salon-sovereign-hub 1.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-salon-"
+"sovereign-hub\n"
+"POT-Creation-Date: 2026-11-25T00:05:42+00:00\n"
+"PO-Revision-Date: 2026-11-21 18:10+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-salon-"
+"sovereign-hub/issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-salon-"
+"sovereign-hub/issues>\n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 "
+"|| n%100>14) ? 1 : 2);\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-salon-sovereign-hub\n"
+
+#. Plugin Name of the plugin
+#: wm-salon-sovereign-hub.php
+msgid "WM Salon Sovereign Hub"
+msgstr "WM Salon Sovereign Hub"
+
+#. Plugin URI of the plugin
+#: wm-salon-sovereign-hub.php
+msgid "https://arnoldwender.com/wordpress-plugins/wm-salon-sovereign-hub/"
+msgstr ""
+
+#. Description of the plugin
+#: wm-salon-sovereign-hub.php
+msgid ""
+"Zwei Rechner für Friseursalons: Umsatzaufteilung bei Stuhlmiete (Salon / "
+"selbstständiger Stylist) und lokaler INCI-Inhaltsstoff-Prüfer, als "
+"Shortcode, REST-Route und WP-CLI-Befehl."
+msgstr ""
+"Dwa kalkulatory dla salonów fryzjerskich: podział przychodów przy wynajmie "
+"fotela (salon / niezależny stylista) oraz lokalny weryfikator składników "
+"INCI jako shortcode, trasa REST i polecenie WP-CLI."
+
+#. Author of the plugin
+#: wm-salon-sovereign-hub.php
+msgid "Arnold Wender"
+msgstr "Arnold Wender"
+
+#. Author URI of the plugin
+#: wm-salon-sovereign-hub.php
+msgid "https://arnoldwender.com"
+msgstr ""
+
+#: includes/class-salon-integrations.php:51
+msgid "Plugin-Optionen und Rate-Limit-Transients beim Deinstallieren löschen."
+msgstr ""
+"Usuń opcje wtyczki oraz dane tymczasowe limitu zapytań podczas "
+"odinstalowania."
+
+#: includes/class-salon-integrations.php:62
+msgid "WM Salon Sovereign Hub — Deinstallation"
+msgstr "WM Salon Sovereign Hub — Dezinstalacja"
+
+#: includes/class-salon-integrations.php:77
+msgid ""
+"Optionen und Rate-Limit-Transients beim Deinstallieren des Plugins endgültig "
+"löschen (standardmäßig deaktiviert)."
+msgstr ""
+"Trwale usuń opcje i dane tymczasowe limitu żądań podczas odinstalowywania "
+"wtyczki (domyślnie wyłączone)."
+
+#: includes/class-salon-integrations.php:95
+msgid "WM Salon Kennzahlen"
+msgstr "Wskaźniki WM Salon"
+
+#: includes/class-salon-integrations.php:130
+msgid "WM Salon Kennzahl"
+msgstr "Wskaźnik WM Salon"
+
+#: includes/class-salon-integrations.php:137
+msgid "Kennzahl-Schlüssel"
+msgstr "Klucz wskaźnika"
+
+#: includes/class-salon-integrations.php:141
+msgid "Bruttoumsatz (€)"
+msgstr "Obrót brutto (€)"
+
+#: includes/class-salon-integrations.php:145
+msgid "Salon-Anteil (0–1)"
+msgstr "Udział salonu (0–1)"
+
+#: includes/class-salon-integrations.php:149
+msgid "Feste Miete (€)"
+msgstr "Czynsz stały (€)"
+
+#: includes/class-salon-rest-controller.php:51
+#: includes/class-salon-rest-controller.php:65
+msgid "Zu viele Anfragen. Bitte in einer Minute erneut versuchen."
+msgstr "Zbyt wiele zapytań. Spróbuj ponownie za minutę."
+
+#. translators: %s: parameter name.
+#: includes/class-salon-rest-controller.php:152
+#, php-format
+msgid "%s fehlt."
+msgstr "Brak parametru %s."
+
+#. translators: 1: parameter name, 2: minimum, 3: maximum.
+#: includes/class-salon-rest-controller.php:165
+#, php-format
+msgid "%1$s muss eine Zahl zwischen %2$s und %3$s sein."
+msgstr "%1$s musi być liczbą z przedziału od %2$s do %3$s."
+
+#: includes/class-salon-rest-controller.php:175
+msgid "Die Beträge können nicht berechnet werden."
+msgstr "Nie można obliczyć kwot."
+
+#: includes/class-salon-rest-controller.php:198
+msgid "inci muss ein Text sein."
+msgstr "inci musi być ciągiem tekstowym."
+
+#: includes/class-salon-rest-controller.php:201
+msgid "Die Inhaltsstoffliste überschreitet die zulässige Länge."
+msgstr "Lista składników przekracza maksymalną dozwoloną długość."
+
+#: includes/class-salon-rest-controller.php:207
+msgid "Die Liste enthält keinen Inhaltsstoff."
+msgstr "Lista nie zawiera żadnego składnika."
+
+#: includes/class-salon-shortcodes.php:82
+#: includes/class-salon-shortcodes.php:83
+msgid "Stuhlmiete-Rechner"
+msgstr "Kalkulator wynajmu fotela"
+
+#: includes/class-salon-shortcodes.php:84
+msgid ""
+"Berechnet die Umsatzaufteilung zwischen Saloninhaber und selbstständigem "
+"Stylisten. Der Rechner prüft nicht, ob die Stuhlmiete "
+"sozialversicherungsrechtlich als Selbstständigkeit gilt."
+msgstr ""
+"Oblicza podział przychodu między właścicielem salonu a niezależnym stylistą. "
+"Kalkulator nie ocenia, czy wynajem fotela stanowi działalność na własny "
+"rachunek w świetle przepisów ubezpieczeń społecznych."
+
+#: includes/class-salon-shortcodes.php:86
+msgid "Bruttoumsatz des Stylisten (€ inkl. MwSt.)"
+msgstr "Obrót brutto stylisty (€ z VAT)"
+
+#: includes/class-salon-shortcodes.php:87
+msgid "Umsatzbeteiligung Salon (%)"
+msgstr "Udział salonu w obrocie (%)"
+
+#: includes/class-salon-shortcodes.php:88
+msgid "Feste Stuhlmiete im selben Zeitraum (€)"
+msgstr "Stały czynsz za fotel w tym samym okresie (€)"
+
+#: includes/class-salon-shortcodes.php:89
+msgid "Aufteilung berechnen"
+msgstr "Oblicz podział"
+
+#: includes/class-salon-shortcodes.php:102
+msgid "Ergebnis"
+msgstr "Wynik"
+
+#: includes/class-salon-shortcodes.php:104
+msgid ""
+"Bitte gültige Beträge und eine Beteiligung zwischen 0 und 100 % eingeben."
+msgstr "Wprowadź prawidłowe kwoty oraz udział z zakresu od 0 do 100%."
+
+#: includes/class-salon-shortcodes.php:106
+msgid "Abrechnungsergebnis"
+msgstr "Wynik rozliczenia"
+
+#: includes/class-salon-shortcodes.php:108
+msgid "Salon-Anteil (brutto)"
+msgstr "Udział salonu (brutto)"
+
+#: includes/class-salon-shortcodes.php:109
+msgid "Auszahlung Stylist (brutto)"
+msgstr "Wypłata dla stylisty (brutto)"
+
+#: includes/class-salon-shortcodes.php:110
+msgid "Enthaltene MwSt. (19 %)"
+msgstr "Zawarty podatek VAT (19%)"
+
+#: includes/class-salon-shortcodes.php:111
+msgid "Netto-Umsatz"
+msgstr "Obrót netto"
+
+#. translators: %s: amount in euros.
+#: includes/class-salon-shortcodes.php:117
+#, php-format
+msgid ""
+"Der Salon-Anteil übersteigt den Umsatz um %s; die Auszahlung an den "
+"Stylisten ist 0."
+msgstr "Udział salonu przekracza obrót o %s; wypłata dla stylisty wynosi 0."
+
+#: includes/class-salon-shortcodes.php:142
+msgid "INCI-Prüfer"
+msgstr "Weryfikator INCI"
+
+#: includes/class-salon-shortcodes.php:143
+msgid "Lokaler INCI-Inhaltsstoff-Prüfer"
+msgstr "Lokalny weryfikator składników INCI"
+
+#: includes/class-salon-shortcodes.php:144
+msgid ""
+"Prüft eine Inhaltsstoffliste auf dieser Website, ohne externe Anfrage, gegen "
+"eine feste Stoffliste: 5 Sulfate, 6 Silikone, 5 Parabene und 8 Duftstoff-"
+"Allergene (u. a. Limonene, Linalool, Citral). Stoffe außerhalb dieser Liste "
+"werden nicht erkannt; ob und ab welcher Konzentration ein Stoff zu "
+"deklarieren ist, prüft der Rechner nicht."
+msgstr ""
+"Sprawdza listę składników lokalnie w tej witrynie bez zewnętrznych zapytań "
+"względem stałej listy: 5 siarczanów, 6 silikonów, 5 parabenów i 8 alergenów "
+"zapachowych (m.in. Limonene, Linalool, Citral). Substancje spoza listy nie "
+"są rozpoznawane, a progi deklaracji nie są weryfikowane."
+
+#: includes/class-salon-shortcodes.php:146
+msgid "INCI-Inhaltsstoffe (durch Komma, Semikolon oder Zeilenumbruch getrennt)"
+msgstr "Składniki INCI (rozdzielone przecinkiem, średnikiem lub nową linią)"
+
+#: includes/class-salon-shortcodes.php:147
+msgid "INCI analysieren"
+msgstr "Analizuj INCI"
+
+#: includes/class-salon-shortcodes.php:152
+msgid "INCI-Ergebnis"
+msgstr "Wynik INCI"
+
+#: includes/class-salon-shortcodes.php:154
+msgid "Die Liste enthält keinen Inhaltsstoff; es gibt kein Ergebnis."
+msgstr "Lista nie zawiera żadnego składnika; brak wyniku."
+
+#. translators: %d: number of ingredients recognised in the list.
+#: includes/class-salon-shortcodes.php:160
+#, php-format
+msgid "%d Inhaltsstoff erkannt"
+msgid_plural "%d Inhaltsstoffe erkannt"
+msgstr[0] "Rozpoznano %d składnik"
+msgstr[1] "Rozpoznano %d składniki"
+msgstr[2] "Rozpoznano %d składników"
+
+#: includes/class-salon-shortcodes.php:164
+msgid "Clean-Score"
+msgstr "Wynik Clean"
+
+#. translators: %s: comma-separated allergen names.
+#: includes/class-salon-shortcodes.php:174
+#, php-format
+msgid "Duftstoff-Allergene aus der Liste: %s"
+msgstr "Alergeny zapachowe z listy: %s"
+
+#. translators: %s: action name.
+#: includes/class-salon-spoke-adapter.php:130
+#, php-format
+msgid "Unbekannte Spoke-Aktion \"%s\"."
+msgstr "Nieznana akcja modułu \"%s\"."
+
+#: includes/class-salon-spoke-adapter.php:154
+msgid "Stuhlmiete-Rechner und INCI-Prüfer liefern die erwarteten Werte."
+msgstr ""
+"Kalkulator wynajmu fotela i weryfikator INCI zwracają oczekiwane wartości."
+
+#: includes/class-salon-spoke-adapter.php:155
+msgid "Selbsttest fehlgeschlagen: ein Rechner liefert abweichende Werte."
+msgstr "Autotest nie powiódł się: kalkulator zwrócił odbiegające wartości."
+
+#~ msgid "https://www.arnoldwender.com"
+#~ msgstr "https://www.arnoldwender.com"

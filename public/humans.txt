@@ -1,0 +1,44 @@
+/* humanstxt.org */
+/* The humans responsible & technology colophon */
+
+# TEAM
+
+    Author: Arnold Wender
+
+    Built with: an agentic workflow (AI coding agents)
+
+# THANKS
+
+    To My Family -- For unconditional love, strength & continuous inspiration
+    WordPress Community & Core Contributors -- For democratizing publishing and powering the open web
+    Open Source Community -- For making software accessible to everyone
+
+# TECHNOLOGY COLOPHON
+
+    ## Architecture & Core
+    WordPress 6.4+, tested up to 7.1
+    PHP 8.1+ (strict types)
+    No custom database tables; opt-in uninstall setting and IP-HMAC rate-limit transients
+    WP-CLI commands, REST routes, Block Bindings and GenerateBlocks 2.x dynamic tag
+
+    ## Front End
+    Two server-rendered shortcodes with their own stylesheet (self-hosted, no CDN, no script)
+
+    ## Quality
+    Standalone test suite with a mutation check, a runtime check in WordPress that confirms nothing is stored
+
+# SITE & PROJECT
+
+    Plugin: wm-salon-sovereign-hub
+    Stack: WordPress Enterprise Extension
+    Standards: no outbound requests, no runtime dependency on other plugins
+
+# CONTACT
+
+    Author Website: https://arnoldwender.com
+    Repository: https://github.com/arnoldwender/wm-wp-salon-sovereign-hub
+    Support: Zero support — reproducible bugs on GitHub Issues only (SUPPORT.md)
+
+# DEDICATION
+
+    Dedicated to my family with eternal love and gratitude.

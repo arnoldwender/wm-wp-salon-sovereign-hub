@@ -1,0 +1,269 @@
+# Translation of wm-salon-sovereign-hub in lt_LT
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-salon-sovereign-hub 1.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-salon-"
+"sovereign-hub\n"
+"POT-Creation-Date: 2026-11-25T00:05:42+00:00\n"
+"PO-Revision-Date: 2026-11-21 18:10+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-salon-"
+"sovereign-hub/issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-salon-"
+"sovereign-hub/issues>\n"
+"Language: lt_LT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && (n%100<11 || n%100>19) ? 0 : "
+"n%10>=2 && n%10<=9 && (n%100<11 || n%100>19) ? 1 : 2);\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-salon-sovereign-hub\n"
+
+#. Plugin Name of the plugin
+#: wm-salon-sovereign-hub.php
+msgid "WM Salon Sovereign Hub"
+msgstr "WM Salon Sovereign Hub"
+
+#. Plugin URI of the plugin
+#: wm-salon-sovereign-hub.php
+msgid "https://arnoldwender.com/wordpress-plugins/wm-salon-sovereign-hub/"
+msgstr ""
+
+#. Description of the plugin
+#: wm-salon-sovereign-hub.php
+msgid ""
+"Zwei Rechner für Friseursalons: Umsatzaufteilung bei Stuhlmiete (Salon / "
+"selbstständiger Stylist) und lokaler INCI-Inhaltsstoff-Prüfer, als "
+"Shortcode, REST-Route und WP-CLI-Befehl."
+msgstr ""
+"Du skaičiuotuvai kirpykloms: kėdės nuomos pajamų paskirstymas (salonas / "
+"nepriklausomas stilistas) ir vietinis INCI sudėties tikrintuvas trumpuoju "
+"kodu, REST maršrutu ir WP-CLI komanda."
+
+#. Author of the plugin
+#: wm-salon-sovereign-hub.php
+msgid "Arnold Wender"
+msgstr "Arnold Wender"
+
+#. Author URI of the plugin
+#: wm-salon-sovereign-hub.php
+msgid "https://arnoldwender.com"
+msgstr ""
+
+#: includes/class-salon-integrations.php:51
+msgid "Plugin-Optionen und Rate-Limit-Transients beim Deinstallieren löschen."
+msgstr ""
+"Ištrinti įskiepio parinktis ir užklausų ribojimo laikinus įrašus išdiegiant."
+
+#: includes/class-salon-integrations.php:62
+msgid "WM Salon Sovereign Hub — Deinstallation"
+msgstr "WM Salon Sovereign Hub — Išdiegimas"
+
+#: includes/class-salon-integrations.php:77
+msgid ""
+"Optionen und Rate-Limit-Transients beim Deinstallieren des Plugins endgültig "
+"löschen (standardmäßig deaktiviert)."
+msgstr ""
+"Visam laikui ištrinti parinktis ir užklausų limito laikinus duomenis "
+"išdiegiant įskiepį (numatytai išjungta)."
+
+#: includes/class-salon-integrations.php:95
+msgid "WM Salon Kennzahlen"
+msgstr "WM Salon rodikliai"
+
+#: includes/class-salon-integrations.php:130
+msgid "WM Salon Kennzahl"
+msgstr "WM Salon rodiklis"
+
+#: includes/class-salon-integrations.php:137
+msgid "Kennzahl-Schlüssel"
+msgstr "Rodiklio raktas"
+
+#: includes/class-salon-integrations.php:141
+msgid "Bruttoumsatz (€)"
+msgstr "Bendrosios pajamos (€)"
+
+#: includes/class-salon-integrations.php:145
+msgid "Salon-Anteil (0–1)"
+msgstr "Salono dalis (0–1)"
+
+#: includes/class-salon-integrations.php:149
+msgid "Feste Miete (€)"
+msgstr "Fiksuota nuoma (€)"
+
+#: includes/class-salon-rest-controller.php:51
+#: includes/class-salon-rest-controller.php:65
+msgid "Zu viele Anfragen. Bitte in einer Minute erneut versuchen."
+msgstr "Per daug užklausų. Bandykite dar kartą po minutės."
+
+#. translators: %s: parameter name.
+#: includes/class-salon-rest-controller.php:152
+#, php-format
+msgid "%s fehlt."
+msgstr "Trūksta %s."
+
+#. translators: 1: parameter name, 2: minimum, 3: maximum.
+#: includes/class-salon-rest-controller.php:165
+#, php-format
+msgid "%1$s muss eine Zahl zwischen %2$s und %3$s sein."
+msgstr "%1$s turi būti skaičius nuo %2$s iki %3$s."
+
+#: includes/class-salon-rest-controller.php:175
+msgid "Die Beträge können nicht berechnet werden."
+msgstr "Sumų apskaičiuoti nepavyko."
+
+#: includes/class-salon-rest-controller.php:198
+msgid "inci muss ein Text sein."
+msgstr "inci turi būti tekstas."
+
+#: includes/class-salon-rest-controller.php:201
+msgid "Die Inhaltsstoffliste überschreitet die zulässige Länge."
+msgstr "Sudėties sąrašas viršija leistiną ilgį."
+
+#: includes/class-salon-rest-controller.php:207
+msgid "Die Liste enthält keinen Inhaltsstoff."
+msgstr "Sąraše nėra nė vieno ingrediento."
+
+#: includes/class-salon-shortcodes.php:82
+#: includes/class-salon-shortcodes.php:83
+msgid "Stuhlmiete-Rechner"
+msgstr "Kėdės nuomos skaičiuotuvas"
+
+#: includes/class-salon-shortcodes.php:84
+msgid ""
+"Berechnet die Umsatzaufteilung zwischen Saloninhaber und selbstständigem "
+"Stylisten. Der Rechner prüft nicht, ob die Stuhlmiete "
+"sozialversicherungsrechtlich als Selbstständigkeit gilt."
+msgstr ""
+"Apskaičiuoja pajamų paskirstymą tarp salono savininko ir savarankiško "
+"stilisto. Skaičiuotuvas nevertina, ar kėdės nuoma laikoma savarankiška "
+"veikla pagal socialinio draudimo teisę."
+
+#: includes/class-salon-shortcodes.php:86
+msgid "Bruttoumsatz des Stylisten (€ inkl. MwSt.)"
+msgstr "Stilisto bendrosios pajamos (€ su PVM)"
+
+#: includes/class-salon-shortcodes.php:87
+msgid "Umsatzbeteiligung Salon (%)"
+msgstr "Salono pajamų dalis (%)"
+
+#: includes/class-salon-shortcodes.php:88
+msgid "Feste Stuhlmiete im selben Zeitraum (€)"
+msgstr "Fiksuota kėdės nuoma tuo pačiu laikotarpiu (€)"
+
+#: includes/class-salon-shortcodes.php:89
+msgid "Aufteilung berechnen"
+msgstr "Apskaičiuoti paskirstymą"
+
+#: includes/class-salon-shortcodes.php:102
+msgid "Ergebnis"
+msgstr "Rezultatas"
+
+#: includes/class-salon-shortcodes.php:104
+msgid ""
+"Bitte gültige Beträge und eine Beteiligung zwischen 0 und 100 % eingeben."
+msgstr "Įveskite tinkamas sumas ir dalį nuo 0 iki 100%."
+
+#: includes/class-salon-shortcodes.php:106
+msgid "Abrechnungsergebnis"
+msgstr "Apskaitos rezultatas"
+
+#: includes/class-salon-shortcodes.php:108
+msgid "Salon-Anteil (brutto)"
+msgstr "Salono dalis (bruto)"
+
+#: includes/class-salon-shortcodes.php:109
+msgid "Auszahlung Stylist (brutto)"
+msgstr "Išmoka stilistui (bruto)"
+
+#: includes/class-salon-shortcodes.php:110
+msgid "Enthaltene MwSt. (19 %)"
+msgstr "Įskaičiuotas PVM (19%)"
+
+#: includes/class-salon-shortcodes.php:111
+msgid "Netto-Umsatz"
+msgstr "Grynosios pajamos"
+
+#. translators: %s: amount in euros.
+#: includes/class-salon-shortcodes.php:117
+#, php-format
+msgid ""
+"Der Salon-Anteil übersteigt den Umsatz um %s; die Auszahlung an den "
+"Stylisten ist 0."
+msgstr "Salono dalis viršija pajamas %s; išmoka stilistui yra 0."
+
+#: includes/class-salon-shortcodes.php:142
+msgid "INCI-Prüfer"
+msgstr "INCI tikrintuvas"
+
+#: includes/class-salon-shortcodes.php:143
+msgid "Lokaler INCI-Inhaltsstoff-Prüfer"
+msgstr "Vietinis INCI ingredientų tikrintuvas"
+
+#: includes/class-salon-shortcodes.php:144
+msgid ""
+"Prüft eine Inhaltsstoffliste auf dieser Website, ohne externe Anfrage, gegen "
+"eine feste Stoffliste: 5 Sulfate, 6 Silikone, 5 Parabene und 8 Duftstoff-"
+"Allergene (u. a. Limonene, Linalool, Citral). Stoffe außerhalb dieser Liste "
+"werden nicht erkannt; ob und ab welcher Konzentration ein Stoff zu "
+"deklarieren ist, prüft der Rechner nicht."
+msgstr ""
+"Tikrina ingredientų sąrašą vietoje šioje svetainėje be išorinių užklausų "
+"pagal fiksuotą sąrašą: 5 sulfatai, 6 silikonai, 5 parabenai ir 8 kvapiųjų "
+"medžiagų alergenai (įskaitant Limonene, Linalool, Citral). Į sąrašą "
+"neįtrauktos medžiagos neatpažįstamos ir deklaravimo ribos netikrinamos."
+
+#: includes/class-salon-shortcodes.php:146
+msgid "INCI-Inhaltsstoffe (durch Komma, Semikolon oder Zeilenumbruch getrennt)"
+msgstr "INCI ingredientai (atskirti kableliu, kabliataškiu arba nauja eilute)"
+
+#: includes/class-salon-shortcodes.php:147
+msgid "INCI analysieren"
+msgstr "Analizuoti INCI"
+
+#: includes/class-salon-shortcodes.php:152
+msgid "INCI-Ergebnis"
+msgstr "INCI rezultatas"
+
+#: includes/class-salon-shortcodes.php:154
+msgid "Die Liste enthält keinen Inhaltsstoff; es gibt kein Ergebnis."
+msgstr "Sąraše nėra ingredientų; rezultato nėra."
+
+#. translators: %d: number of ingredients recognised in the list.
+#: includes/class-salon-shortcodes.php:160
+#, php-format
+msgid "%d Inhaltsstoff erkannt"
+msgid_plural "%d Inhaltsstoffe erkannt"
+msgstr[0] "Atpažintas %d ingredientas"
+msgstr[1] "Atpažinti %d ingredientai"
+msgstr[2] "Atpažinta %d ingredientų"
+
+#: includes/class-salon-shortcodes.php:164
+msgid "Clean-Score"
+msgstr "Clean balas"
+
+#. translators: %s: comma-separated allergen names.
+#: includes/class-salon-shortcodes.php:174
+#, php-format
+msgid "Duftstoff-Allergene aus der Liste: %s"
+msgstr "Sąraše rasti kvapieji alergenai: %s"
+
+#. translators: %s: action name.
+#: includes/class-salon-spoke-adapter.php:130
+#, php-format
+msgid "Unbekannte Spoke-Aktion \"%s\"."
+msgstr "Nežinomas modulio veiksmas \"%s\"."
+
+#: includes/class-salon-spoke-adapter.php:154
+msgid "Stuhlmiete-Rechner und INCI-Prüfer liefern die erwarteten Werte."
+msgstr ""
+"Kėdės nuomos skaičiuotuvas ir INCI tikrintuvas grąžina numatytas reikšmes."
+
+#: includes/class-salon-spoke-adapter.php:155
+msgid "Selbsttest fehlgeschlagen: ein Rechner liefert abweichende Werte."
+msgstr "Savikontrolė nepavyko: skaičiuotuvas grąžino besiskiriančias reikšmes."
+
+#~ msgid "https://www.arnoldwender.com"
+#~ msgstr "https://www.arnoldwender.com"

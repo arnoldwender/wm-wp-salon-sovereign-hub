@@ -1,0 +1,272 @@
+# Translation of wm-salon-sovereign-hub in mt_MT
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-salon-sovereign-hub 1.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-salon-"
+"sovereign-hub\n"
+"POT-Creation-Date: 2026-11-25T00:05:42+00:00\n"
+"PO-Revision-Date: 2026-11-21 18:10+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-salon-"
+"sovereign-hub/issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-salon-"
+"sovereign-hub/issues>\n"
+"Language: mt_MT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n==0 || (n%100>1 && n%100<11) ? "
+"1 : (n%100>10 && n%100<20 ) ? 2 : 3);\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-salon-sovereign-hub\n"
+
+#. Plugin Name of the plugin
+#: wm-salon-sovereign-hub.php
+msgid "WM Salon Sovereign Hub"
+msgstr "WM Salon Sovereign Hub"
+
+#. Plugin URI of the plugin
+#: wm-salon-sovereign-hub.php
+msgid "https://arnoldwender.com/wordpress-plugins/wm-salon-sovereign-hub/"
+msgstr ""
+
+#. Description of the plugin
+#: wm-salon-sovereign-hub.php
+msgid ""
+"Zwei Rechner für Friseursalons: Umsatzaufteilung bei Stuhlmiete (Salon / "
+"selbstständiger Stylist) und lokaler INCI-Inhaltsstoff-Prüfer, als "
+"Shortcode, REST-Route und WP-CLI-Befehl."
+msgstr ""
+"Żewġ kalkulaturi għas-salons tax-xagħar: qsim tad-dħul mill-kiri tas-siġġu "
+"(salon / stilista indipendenti) u kontrollur lokali tal-ingredjenti INCI "
+"permezz ta' shortcode, rotta REST u kmand WP-CLI."
+
+#. Author of the plugin
+#: wm-salon-sovereign-hub.php
+msgid "Arnold Wender"
+msgstr "Arnold Wender"
+
+#. Author URI of the plugin
+#: wm-salon-sovereign-hub.php
+msgid "https://arnoldwender.com"
+msgstr ""
+
+#: includes/class-salon-integrations.php:51
+msgid "Plugin-Optionen und Rate-Limit-Transients beim Deinstallieren löschen."
+msgstr ""
+"Ħassar l-għażliet tal-plugin u d-data temporanja tal-limitu tat-talbiet waqt "
+"id-diżinstallazzjoni."
+
+#: includes/class-salon-integrations.php:62
+msgid "WM Salon Sovereign Hub — Deinstallation"
+msgstr "WM Salon Sovereign Hub — Diżinstallazzjoni"
+
+#: includes/class-salon-integrations.php:77
+msgid ""
+"Optionen und Rate-Limit-Transients beim Deinstallieren des Plugins endgültig "
+"löschen (standardmäßig deaktiviert)."
+msgstr ""
+"Ħassar b'mod permanenti l-għażliet u t-transients tal-limitu tar-rata meta "
+"tiddiżinstalla l-plugin (diżattivat b'mod awtomatiku)."
+
+#: includes/class-salon-integrations.php:95
+msgid "WM Salon Kennzahlen"
+msgstr "Metriċi WM Salon"
+
+#: includes/class-salon-integrations.php:130
+msgid "WM Salon Kennzahl"
+msgstr "Metrika WM Salon"
+
+#: includes/class-salon-integrations.php:137
+msgid "Kennzahl-Schlüssel"
+msgstr "Ċavetta tal-metrika"
+
+#: includes/class-salon-integrations.php:141
+msgid "Bruttoumsatz (€)"
+msgstr "Dħul gross (€)"
+
+#: includes/class-salon-integrations.php:145
+msgid "Salon-Anteil (0–1)"
+msgstr "Sehem tas-salon (0–1)"
+
+#: includes/class-salon-integrations.php:149
+msgid "Feste Miete (€)"
+msgstr "Kera fissa (€)"
+
+#: includes/class-salon-rest-controller.php:51
+#: includes/class-salon-rest-controller.php:65
+msgid "Zu viele Anfragen. Bitte in einer Minute erneut versuchen."
+msgstr "Wisq talbiet. Jekk jogħġbok erġa' pprova wara minuta."
+
+#. translators: %s: parameter name.
+#: includes/class-salon-rest-controller.php:152
+#, php-format
+msgid "%s fehlt."
+msgstr "%s nieqes."
+
+#. translators: 1: parameter name, 2: minimum, 3: maximum.
+#: includes/class-salon-rest-controller.php:165
+#, php-format
+msgid "%1$s muss eine Zahl zwischen %2$s und %3$s sein."
+msgstr "%1$s irid ikun numru bejn %2$s u %3$s."
+
+#: includes/class-salon-rest-controller.php:175
+msgid "Die Beträge können nicht berechnet werden."
+msgstr "L-ammonti ma jistgħux jiġu kkalkulati."
+
+#: includes/class-salon-rest-controller.php:198
+msgid "inci muss ein Text sein."
+msgstr "inci jrid ikun test."
+
+#: includes/class-salon-rest-controller.php:201
+msgid "Die Inhaltsstoffliste überschreitet die zulässige Länge."
+msgstr "Il-lista tal-ingredjenti taqbeż it-tul massimu permess."
+
+#: includes/class-salon-rest-controller.php:207
+msgid "Die Liste enthält keinen Inhaltsstoff."
+msgstr "Il-lista ma fiha l-ebda ingredjent."
+
+#: includes/class-salon-shortcodes.php:82
+#: includes/class-salon-shortcodes.php:83
+msgid "Stuhlmiete-Rechner"
+msgstr "Kalkulatur tal-Kiri tas-Siġġu"
+
+#: includes/class-salon-shortcodes.php:84
+msgid ""
+"Berechnet die Umsatzaufteilung zwischen Saloninhaber und selbstständigem "
+"Stylisten. Der Rechner prüft nicht, ob die Stuhlmiete "
+"sozialversicherungsrechtlich als Selbstständigkeit gilt."
+msgstr ""
+"Jikkalkula l-qsim tad-dħul bejn is-sid tas-salon u l-istilista indipendenti. "
+"Il-kalkulatur ma jevalwax jekk il-kiri tas-siġġu jikkwalifikax bħala impjieg "
+"għal rasu skont il-liġi tas-sigurtà soċjali."
+
+#: includes/class-salon-shortcodes.php:86
+msgid "Bruttoumsatz des Stylisten (€ inkl. MwSt.)"
+msgstr "Dħul gross tal-istilista (€ inkl. VAT)"
+
+#: includes/class-salon-shortcodes.php:87
+msgid "Umsatzbeteiligung Salon (%)"
+msgstr "Sehem mid-dħul tas-salon (%)"
+
+#: includes/class-salon-shortcodes.php:88
+msgid "Feste Stuhlmiete im selben Zeitraum (€)"
+msgstr "Kera fissa tas-siġġu fl-istess perjodu (€)"
+
+#: includes/class-salon-shortcodes.php:89
+msgid "Aufteilung berechnen"
+msgstr "Ikkalkula l-qsim"
+
+#: includes/class-salon-shortcodes.php:102
+msgid "Ergebnis"
+msgstr "Riżultat"
+
+#: includes/class-salon-shortcodes.php:104
+msgid ""
+"Bitte gültige Beträge und eine Beteiligung zwischen 0 und 100 % eingeben."
+msgstr "Daħħal ammonti validi u sehem bejn 0 u 100%."
+
+#: includes/class-salon-shortcodes.php:106
+msgid "Abrechnungsergebnis"
+msgstr "Riżultat tal-kont"
+
+#: includes/class-salon-shortcodes.php:108
+msgid "Salon-Anteil (brutto)"
+msgstr "Sehem tas-salon (gross)"
+
+#: includes/class-salon-shortcodes.php:109
+msgid "Auszahlung Stylist (brutto)"
+msgstr "Ħlas lill-istilista (gross)"
+
+#: includes/class-salon-shortcodes.php:110
+msgid "Enthaltene MwSt. (19 %)"
+msgstr "VAT inkluża (19%)"
+
+#: includes/class-salon-shortcodes.php:111
+msgid "Netto-Umsatz"
+msgstr "Dħul nett"
+
+#. translators: %s: amount in euros.
+#: includes/class-salon-shortcodes.php:117
+#, php-format
+msgid ""
+"Der Salon-Anteil übersteigt den Umsatz um %s; die Auszahlung an den "
+"Stylisten ist 0."
+msgstr "Is-sehem tas-salon jaqbeż id-dħul b'%s; il-ħlas lill-istilista huwa 0."
+
+#: includes/class-salon-shortcodes.php:142
+msgid "INCI-Prüfer"
+msgstr "Kontrollur INCI"
+
+#: includes/class-salon-shortcodes.php:143
+msgid "Lokaler INCI-Inhaltsstoff-Prüfer"
+msgstr "Kontrollur Lokali tal-Ingredjenti INCI"
+
+#: includes/class-salon-shortcodes.php:144
+msgid ""
+"Prüft eine Inhaltsstoffliste auf dieser Website, ohne externe Anfrage, gegen "
+"eine feste Stoffliste: 5 Sulfate, 6 Silikone, 5 Parabene und 8 Duftstoff-"
+"Allergene (u. a. Limonene, Linalool, Citral). Stoffe außerhalb dieser Liste "
+"werden nicht erkannt; ob und ab welcher Konzentration ein Stoff zu "
+"deklarieren ist, prüft der Rechner nicht."
+msgstr ""
+"Jivverifika lista ta' ingredjenti lokalment fuq dan is-sit mingħajr talbiet "
+"esterni ma' lista fissa: 5 sulfati, 6 silikoni, 5 parabeni u 8 allerġeni tal-"
+"fwieħa (inklużi Limonene, Linalool, Citral). Sustanzi barra mil-lista ma "
+"jiġux rikonoxxuti."
+
+#: includes/class-salon-shortcodes.php:146
+msgid "INCI-Inhaltsstoffe (durch Komma, Semikolon oder Zeilenumbruch getrennt)"
+msgstr "Ingredjenti INCI (separati b'virgola, punt u virgola jew linja ġdida)"
+
+#: includes/class-salon-shortcodes.php:147
+msgid "INCI analysieren"
+msgstr "Analizza l-INCI"
+
+#: includes/class-salon-shortcodes.php:152
+msgid "INCI-Ergebnis"
+msgstr "Riżultat INCI"
+
+#: includes/class-salon-shortcodes.php:154
+msgid "Die Liste enthält keinen Inhaltsstoff; es gibt kein Ergebnis."
+msgstr "Il-lista ma fiha l-ebda ingredjent; m'hemm l-ebda riżultat."
+
+#. translators: %d: number of ingredients recognised in the list.
+#: includes/class-salon-shortcodes.php:160
+#, php-format
+msgid "%d Inhaltsstoff erkannt"
+msgid_plural "%d Inhaltsstoffe erkannt"
+msgstr[0] "%d ingredjent rikonoxxut"
+msgstr[1] "%d ingredjenti rikonoxxuti"
+msgstr[2] "%d ingredjent rikonoxxut"
+msgstr[3] "%d ingredjent rikonoxxut"
+
+#: includes/class-salon-shortcodes.php:164
+msgid "Clean-Score"
+msgstr "Punteġġ Clean"
+
+#. translators: %s: comma-separated allergen names.
+#: includes/class-salon-shortcodes.php:174
+#, php-format
+msgid "Duftstoff-Allergene aus der Liste: %s"
+msgstr "Allerġeni tal-fwieħa misjuba fil-lista: %s"
+
+#. translators: %s: action name.
+#: includes/class-salon-spoke-adapter.php:130
+#, php-format
+msgid "Unbekannte Spoke-Aktion \"%s\"."
+msgstr "Azzjoni spoke mhux magħrufa \"%s\"."
+
+#: includes/class-salon-spoke-adapter.php:154
+msgid "Stuhlmiete-Rechner und INCI-Prüfer liefern die erwarteten Werte."
+msgstr ""
+"Il-kalkulatur tal-kiri tas-siġġu u l-kontrollur INCI jirritornaw il-valuri "
+"mistennija."
+
+#: includes/class-salon-spoke-adapter.php:155
+msgid "Selbsttest fehlgeschlagen: ein Rechner liefert abweichende Werte."
+msgstr "L-awtotest falla: kalkulatur irritorna valuri differenti."
+
+#~ msgid "https://www.arnoldwender.com"
+#~ msgstr "https://www.arnoldwender.com"

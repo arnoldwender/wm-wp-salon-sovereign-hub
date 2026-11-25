@@ -1,0 +1,21 @@
+# WM Salon Sovereign Hub
+
+> WordPress plugin with two calculators for hair salons: the booth-rent (Stuhlmiete) revenue split between a salon and an independent stylist, computed in whole cents, and an INCI ingredient checker (5 sulfates, 6 silicones, 5 parabens, 8 fragrance allergens), each as a shortcode, a public REST route (`wm-salon/v1`) and a WP-CLI command (`wp salon`).
+
+## Overview
+
+`wm-salon-sovereign-hub` (v1.1.2) is a WordPress plugin developed with an agentic workflow (AI coding agents). It uses no custom database tables, makes no external request, throttles anonymous REST requests via HMAC-SHA256 IP transients, preserves options on uninstall unless `wm_salon_delete_data_on_uninstall` is explicitly enabled, exposes WordPress 6.5+ Block Bindings (`wm-salon/metrics`) and GenerateBlocks 2.x dynamic tag (`{{wm_salon_metric}}`), and registers as a spoke of the WM Suite Hub when the hub is active. The calculators give figures, not legal or regulatory verdicts: the split calculator does not assess self-employment, and the INCI checker does not check which allergen has to be declared.
+
+## Standards & Compliance
+
+- PHP 8.1+ with strict types; WordPress coding style
+- Zero-CDN: the stylesheet ships in `assets/css/`, nothing is loaded from another host
+- Late escaping; REST arguments validated against a schema (400 on missing or malformed input)
+- DSGVO/GDPR: no personal data stored
+- Version 1.2.1.
+
+## Official Links
+
+- Plugin Page: https://arnoldwender.com/wordpress-plugins/wm-salon-sovereign-hub/
+- GitHub Repository: https://github.com/arnoldwender/wm-wp-salon-sovereign-hub
+- Support & Liability: Zero support — reproducible bugs on https://github.com/arnoldwender/wm-wp-salon-sovereign-hub/issues only · no private support · AS IS / no liability (SUPPORT.md)

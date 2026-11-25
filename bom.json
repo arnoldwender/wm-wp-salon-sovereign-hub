@@ -1,0 +1,35 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-11-16T23:30:00Z",
+    "component": {
+      "type": "application",
+      "name": "wm-salon-sovereign-hub",
+      "version": "1.2.1",
+      "description": "Booth rental (Stuhlmiete) revenue split calculator in whole cents and local INCI ingredient checker for hair salons.",
+      "supplier": {
+        "name": "Arnold Wender",
+        "url": [
+          "https://arnoldwender.com"
+        ]
+      },
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:wordpress/wm-salon-sovereign-hub@1.2.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "efbe39753c8d8bfc186faa5a935d88543814b457f77c373ec6aa02b78f81fb33"
+        }
+      ]
+    }
+  },
+  "components": []
+}

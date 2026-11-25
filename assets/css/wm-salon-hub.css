@@ -1,0 +1,222 @@
+/**
+ * WM Salon Sovereign Hub — shortcode sheet.
+ *
+ * Replaces the inline styles of both forms (2026-09-15). Every colour and dimension is a custom property on the box;
+ * rules only use var(). The dark palette of the former inline styles stays, with the pairs that missed the minimums
+ * changed: button text on its background at least 4.5:1, field borders and buttons against the box at least 3:1
+ * (tests/test-suite.php computes the ratios from the values below).
+ */
+
+.wm-salon-box {
+	--salon-surface: #0f172a;
+	--salon-surface-raised: #1e293b;
+	--salon-border: #334155;
+	--salon-field-border: #94a3b8;
+	--salon-text: #f8fafc;
+	--salon-text-muted: #94a3b8;
+	--salon-heading: #f59e0b;
+	--salon-heading-inci: #10b981;
+	--salon-accent: #b45309;
+	--salon-accent-inci: #047857;
+	--salon-accent-contrast: #ffffff;
+	--salon-result-title: #38bdf8;
+	--salon-value-salon: #f59e0b;
+	--salon-value-stylist: #34d399;
+	--salon-score-good: #34d399;
+	--salon-score-medium: #f59e0b;
+	--salon-score-poor: #f87171;
+	--salon-badge-bg: #065f46;
+	--salon-badge-text: #6ee7b7;
+	--salon-warning: #fca5a5;
+	--salon-focus: #38bdf8;
+	--salon-border-width: 1px;
+	--salon-focus-width: 2px;
+	--salon-radius-sm: 4px;
+	--salon-radius-md: 6px;
+	--salon-radius: 8px;
+	--salon-radius-lg: 12px;
+	--salon-space-1: 4px;
+	--salon-space-2: 8px;
+	--salon-space-3: 12px;
+	--salon-space-4: 16px;
+	--salon-space-5: 20px;
+	--salon-space-6: 24px;
+	--salon-target: 48px;
+	--salon-max-width: 650px;
+	--salon-icon-offset: -0.125em;
+	--salon-text-xs: 0.875rem;
+	--salon-text-sm: 0.875rem;
+	--salon-text-base: 1rem;
+	--salon-text-lg: 1.25rem;
+	--salon-font: system-ui, sans-serif;
+
+	box-sizing: border-box;
+	max-width: var(--salon-max-width);
+	margin: var(--salon-space-5) auto;
+	padding: var(--salon-space-6);
+	background: var(--salon-surface);
+	color: var(--salon-text);
+	border: var(--salon-border-width) solid var(--salon-border);
+	border-radius: var(--salon-radius-lg);
+	font-family: var(--salon-font);
+	font-size: var(--salon-text-base);
+	line-height: 1.5;
+}
+
+.wm-salon-box *,
+.wm-salon-box *::before,
+.wm-salon-box *::after {
+	box-sizing: inherit;
+}
+
+.wm-salon-icon {
+	vertical-align: var(--salon-icon-offset);
+}
+
+.wm-salon-title {
+	margin: 0 0 var(--salon-space-2);
+	font-size: var(--salon-text-lg);
+	color: var(--salon-heading);
+}
+
+.wm-salon-title-inci {
+	color: var(--salon-heading-inci);
+}
+
+.wm-salon-intro {
+	margin: 0 0 var(--salon-space-4);
+	color: var(--salon-text-muted);
+}
+
+.wm-salon-form {
+	display: grid;
+	gap: var(--salon-space-3);
+}
+
+.wm-salon-field {
+	display: grid;
+	gap: var(--salon-space-1);
+	font-size: var(--salon-text-sm);
+}
+
+.wm-salon-input {
+	width: 100%;
+	min-height: var(--salon-target);
+	padding: var(--salon-space-2);
+	background: var(--salon-surface-raised);
+	color: var(--salon-text);
+	border: var(--salon-border-width) solid var(--salon-field-border);
+	border-radius: var(--salon-radius-md);
+	font: inherit;
+	font-size: var(--salon-text-base);
+}
+
+.wm-salon-button {
+	min-height: var(--salon-target);
+	padding: var(--salon-space-2) var(--salon-space-4);
+	background: var(--salon-accent);
+	color: var(--salon-accent-contrast);
+	border: var(--salon-border-width) solid var(--salon-accent);
+	border-radius: var(--salon-radius-md);
+	font: inherit;
+	font-size: var(--salon-text-base);
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.wm-salon-button-inci {
+	background: var(--salon-accent-inci);
+	border-color: var(--salon-accent-inci);
+}
+
+.wm-salon-box :is(button, input, textarea):focus-visible {
+	outline: var(--salon-focus-width) solid var(--salon-focus);
+	outline-offset: var(--salon-focus-width);
+}
+
+.wm-salon-result {
+	margin-top: var(--salon-space-4);
+	padding: var(--salon-space-4);
+	background: var(--salon-surface-raised);
+	border: var(--salon-border-width) solid var(--salon-field-border);
+	border-radius: var(--salon-radius);
+}
+
+.wm-salon-result-title {
+	margin: 0 0 var(--salon-space-3);
+	color: var(--salon-result-title);
+}
+
+.wm-salon-figures {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: var(--salon-space-2);
+	margin: 0;
+	font-size: var(--salon-text-sm);
+}
+
+.wm-salon-figures dd {
+	margin: 0;
+}
+
+.wm-salon-figures .is-salon {
+	font-weight: 700;
+	color: var(--salon-value-salon);
+}
+
+.wm-salon-figures .is-stylist {
+	font-weight: 700;
+	color: var(--salon-value-stylist);
+}
+
+.wm-salon-score {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 0 var(--salon-space-3);
+}
+
+.wm-salon-score-label {
+	font-weight: 700;
+	color: var(--salon-result-title);
+}
+
+.wm-salon-score-value {
+	font-size: var(--salon-text-lg);
+	font-weight: 700;
+}
+
+.wm-salon-score-value.is-good {
+	color: var(--salon-score-good);
+}
+
+.wm-salon-score-value.is-medium {
+	color: var(--salon-score-medium);
+}
+
+.wm-salon-score-value.is-poor {
+	color: var(--salon-score-poor);
+}
+
+.wm-salon-badges {
+	display: flex;
+	flex-wrap: wrap;
+	gap: var(--salon-space-2);
+	margin: 0 0 var(--salon-space-3);
+}
+
+.wm-salon-badge {
+	padding: var(--salon-space-1) var(--salon-space-2);
+	background: var(--salon-badge-bg);
+	color: var(--salon-badge-text);
+	border-radius: var(--salon-radius-sm);
+	font-size: var(--salon-text-xs);
+	font-weight: 700;
+}
+
+.wm-salon-allergens,
+.wm-salon-error {
+	margin: 0;
+	color: var(--salon-warning);
+	font-size: var(--salon-text-sm);
+}
